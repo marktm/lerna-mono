@@ -1,0 +1,14 @@
+{
+  "name": "lerna-mono",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lerna run start",
+    "test": "lerna run test",
+    "lerna-version": "lerna version --conventional-commits --yes",
+    "lerna-diff": "lerna diff"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
